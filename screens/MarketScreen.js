@@ -7,9 +7,9 @@ import {
     FlatList,
     Switch,
     StyleSheet,
-    SafeAreaView,
     StatusBar,
 } from "react-native";
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { INITIAL_ASSETS, CATEGORIES } from "../mockData";
 import AssetCard from "../components/AssetCard";
 import RenderCountBadge from "../components/RenderCountBadge";
